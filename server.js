@@ -8,7 +8,7 @@ const usersRouter = require('./src/routers/users.router')
 const placesRouter = require('./src/routers/places.router')
 const adminRouter = require('./src/routers/admin.router')
 
-const MONGO_URL = process.env.MONGO_URL || 'mongodb://localhost:27017/ep10'
+const MONGO_URL = process.env.MONGO_URL
 const PORT = process.env.PORT || 4040
 
 const app = express()
